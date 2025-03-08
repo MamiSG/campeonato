@@ -87,7 +87,7 @@ public class GerenciadorCampeonatos {
                 dataFim = sdf.parse(scanner.nextLine());
             } catch (ParseException e) {
                 System.out.println("Formato de data inválido! Tente novamente.");
-                continue; // Volta para o início do loop
+                continue;
             }
 
             Campeonato campeonato = new Campeonato(nomeCampeonato, dataInicio, dataFim);
